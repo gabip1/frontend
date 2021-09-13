@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateMovieController renders correctly 1`] = `
+<div>
+  <br />
+  <br />
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="card col-md-6 offset-md-3 offset-md-3"
+      >
+        <h3
+          className="text-center"
+        >
+          Add movie
+        </h3>
+        <div
+          className="card-body"
+        >
+          <form>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Title 
+              </label>
+              <input
+                className="form-control"
+                name="title"
+                onChange={[Function]}
+                placeholder="Title"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Director 
+              </label>
+              <input
+                className="form-control"
+                name="director"
+                onChange={[Function]}
+                placeholder="Director"
+                value=""
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                Genre 
+              </label>
+              <input
+                className="form-control"
+                name="genre"
+                onChange={[Function]}
+                placeholder="Genre"
+                value=""
+              />
+            </div>
+            <button
+              className="btn btn-success"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
