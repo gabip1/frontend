@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const MOVIES_API_BASE_URL = "http://backend-movie-app.herokuapp.com/api/v1/movies"
+const MOVIES_API_BASE_URL = "https://backend-movie-app.herokuapp.com/api/v1/movies"
 
 class MoviesService {
 
